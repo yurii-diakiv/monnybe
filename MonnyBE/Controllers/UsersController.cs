@@ -55,8 +55,8 @@ namespace MonnyBE.Controllers
             };
 
             var tokeOptions = new JwtSecurityToken(
-                issuer: "https://localhost:5001",
-                audience: "https://localhost:5001",
+                issuer: "https://monnybe.herokuapp.com",
+                audience: "https://monnybe.herokuapp.com",
                 claims: claims,
                 expires: DateTime.Now.AddDays(1),
                 signingCredentials: signinCredentials
