@@ -22,7 +22,7 @@ namespace MonnyBE.Controllers
             return categoriesService.GetCategory(id);
         }
 
-        [HttpGet, Authorize]
+        [HttpGet]
         public List<CategoryDTO> Get()
         {
             return categoriesService.GetItems();
