@@ -44,8 +44,11 @@ namespace DataAccess
             // optionsBuilder.UseSqlServer(
             //     "Server=ec2-54-247-118-139.eu-west-1.compute.amazonaws.com;Database=d5j8dn5a23j0bl;User Id=ecevrottkkwshs;Password=33ffe6ce75f3d360f2a4431fe8119657131e7a2735a46c3d86bdb3b882d4cff2;SSL Mode=Require;TrustServerCertificate=True;"
             // );
+            // optionsBuilder.UseNpgsql(
+            //     "Server=ec2-54-247-118-139.eu-west-1.compute.amazonaws.com;Database=d5j8dn5a23j0bl;User Id=ecevrottkkwshs;Password=33ffe6ce75f3d360f2a4431fe8119657131e7a2735a46c3d86bdb3b882d4cff2;SSL Mode=Require;TrustServerCertificate=True;"
+            // );
             optionsBuilder.UseNpgsql(
-                "Server=ec2-54-247-118-139.eu-west-1.compute.amazonaws.com;Database=d5j8dn5a23j0bl;User Id=ecevrottkkwshs;Password=33ffe6ce75f3d360f2a4431fe8119657131e7a2735a46c3d86bdb3b882d4cff2;SSL Mode=Require;TrustServerCertificate=True;"
+                "Server=ec2-54-220-53-223.eu-west-1.compute.amazonaws.com;Database=d262f5fpdh6se7;User Id=cpjbrfinbopgvc;Password=97549dbaf7908852b06e55cc6c215a3ab64d7a7302706d19fde48e81ed67c8cf;SSL Mode=Require;TrustServerCertificate=True;"
             );
         }
     }
